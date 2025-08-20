@@ -8,7 +8,7 @@ const services = [
   { label: 'Previous Years Question Papers', icon: <FileText className="w-5 h-5" /> },
   { label: 'Document Enhancement A.I', icon: <Sparkles className="w-5 h-5" /> },
   { label: 'Quiz (A.I.)', icon: <ClipboardList className="w-5 h-5" /> },
-  { label: 'Virtual Teacher (A.I.)', icon: <HelpCircle className="w-5 h-5" /> },
+
   { label: 'Resume Builder with ATS Score', icon: <UserCheck className="w-5 h-5" /> },
   { label: 'Community/Group Study', icon: <Users className="w-5 h-5" /> },
 ];
@@ -55,4 +55,4 @@ export const TabSwitcherWithPopup: React.FC<{ onMapClick?: () => void }> = ({ on
       </div>
     </>
   );
-}; 
+};

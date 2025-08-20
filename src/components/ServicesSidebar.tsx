@@ -16,7 +16,7 @@ const services = [
   { label: 'Previous Years Question Papers', icon: <FileText className="w-6 h-6" /> },
   { label: 'Document Enhancement A.I', icon: <Sparkles className="w-6 h-6" /> },
   { label: 'Quiz (A.I.)', icon: <ClipboardList className="w-6 h-6" /> },
-  { label: 'Virtual Teacher (A.I.)', icon: <HelpCircle className="w-6 h-6" /> },
+
   { label: 'Resume Builder with ATS Score', icon: <UserCheck className="w-6 h-6" /> },
   { label: 'Community/Group Study', icon: <Users className="w-6 h-6" /> },
 ];
@@ -52,4 +52,4 @@ export const ServicesSidebar: React.FC<{ open: boolean; onClose: () => void }> =
       </motion.aside>
     )}
   </AnimatePresence>
-); 
+);

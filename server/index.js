@@ -137,40 +137,9 @@ app.post('/api/enhance-document', upload.single('pdf'), async (req, res) => {
   }
 });
 
-// Virtual Teacher endpoint - general AI tutor
-app.post('/api/ask-teacher', async (req, res) => {
-  const { question } = req.body;
-  if (!question) {
-    return res.status(400).json({ error: 'Missing question' });
-  }
-  try {
-    console.log('Virtual Teacher question:', question);
-    
-    // Call Ollama's local API for general tutoring
-    const ollamaRes = await axios.post('http://localhost:11434/api/chat', {
-      model: 'deepseek-coder-v2',
-      messages: [
-        { 
-          role: 'system', 
-          content: 'You are a knowledgeable and patient virtual teacher. Help students understand concepts clearly, provide step-by-step explanations, give examples, and encourage learning. Be friendly, supportive, and educational.' 
-        },
-        { 
-          role: 'user', 
-          content: question 
-        }
-      ],
-      stream: false
-    });
-    const answer = ollamaRes.data.message.content;
-    console.log('Virtual Teacher response:', answer);
-    res.json({ answer });
-  } catch (err) {
-    console.error('Virtual Teacher API error:', err.response?.data || err.message);
-    res.status(500).json({ error: 'Failed to get answer from Virtual Teacher', details: err.message });
-  }
-});
+
 
 const PORT = 5001;
 app.listen(PORT, () => {
   console.log(`Backend server running on http://localhost:${PORT}`);
-}); 
+});

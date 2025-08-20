@@ -34,7 +34,6 @@ export const HeaderBar: React.FC<{ onMapClick?: () => void; isDark: boolean; onT
     'Search for Java OOP topics',
     'Find previous year question papers',
     'Quiz: Data Structures',
-    'Virtual Teacher help',
     'Resume Builder',
   ];
   const [showSuggestions, setShowSuggestions] = useState(false);
@@ -247,4 +246,4 @@ export const HeaderBar: React.FC<{ onMapClick?: () => void; isDark: boolean; onT
       )}
     </>
   );
-}; 
+};

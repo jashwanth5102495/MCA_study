@@ -16,7 +16,7 @@ const features = [
   { label: 'Resume Builder', icon: <User className="w-8 h-8 text-cyan-400" />, description: 'Create professional resumes with ATS scoring and templates.' },
   { label: 'Student Explanations', icon: <Video className="w-8 h-8 text-red-400" />, description: 'Upload and share your topic explanation videos with HOD approval.' },
   { label: 'Jobs Update', icon: <Briefcase className="w-8 h-8 text-pink-400" />, description: 'Stay updated with the latest job opportunities.' },
-  { label: 'Virtual Teacher (A.I.)', icon: <GraduationCap className="w-8 h-8 text-yellow-300" />, description: 'Get personalized AI tutoring and explanations.' },
+
   { label: 'Computer Science Projects', icon: <Laptop2 className="w-8 h-8 text-indigo-400" />, description: 'Explore and build computer science projects.' },
   { label: 'Trending Articles on New Technology', icon: <Newspaper className="w-8 h-8 text-orange-400" />, description: 'Read trending articles on the latest technologies.' },
   { label: 'Upcoming Hackathons', icon: <CalendarClock className="w-8 h-8 text-lime-400" />, description: 'Find and participate in upcoming hackathons.' },
@@ -60,10 +60,9 @@ export const MenuWelcome: React.FC<MenuWelcomeProps> = ({ isDark, onToggle }) =>
                   else if (idx === 4) navigate('/resume-builder');
                   else if (idx === 5) navigate('/student-explanations');
                   else if (idx === 6) navigate('/jobs');
-                  else if (idx === 7) navigate('/virtual-teacher');
-                  else if (idx === 8) navigate('/projects');
-                  else if (idx === 9) navigate('/articles');
-                  else if (idx === 10) navigate('/hackathons');
+                  else if (idx === 7) navigate('/projects');
+                  else if (idx === 8) navigate('/articles');
+                  else if (idx === 9) navigate('/hackathons');
                 }}
           >
             {idx === 2 ? 'Coming Soon' : 'Start'}
@@ -106,4 +105,4 @@ export const MenuWelcome: React.FC<MenuWelcomeProps> = ({ isDark, onToggle }) =>
       </div>
   </div>
 ); 
-}; 
+};

@@ -9,7 +9,7 @@ import { EditModal } from './components/EditModal';
 import { AuthModal } from './components/AuthModal';
 import QuestionPapersPage from './components/QuestionPapersPage';
 import DocumentEnhancementPage from './components/DocumentEnhancementPage';
-import VirtualTeacherPage from './components/VirtualTeacherPage';
+
 import QuizPage from './components/QuizPage';
 
 import ProjectsPage from './components/ProjectsPage';
@@ -461,7 +461,7 @@ export default function App() {
         <Route path="/mca/qp" element={<QuestionPapersPage isDark={isDark} toggleTheme={toggleTheme} />} />
 
         <Route path="/document-enhancement" element={<DocumentEnhancementPage />} />
-        <Route path="/virtual-teacher" element={<VirtualTeacherPage />} />
+        
         <Route path="/quiz" element={<QuizPage />} />
 
         <Route path="/projects" element={<ProjectsPage isDark={isDark} toggleTheme={toggleTheme} />} />
