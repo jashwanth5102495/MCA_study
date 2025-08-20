@@ -2,7 +2,7 @@ const { spawn, exec } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-console.log('🚀 MCA Study Hub - Complete Setup and Start\n');
+console.log('🚀 Akash e notes - Complete Setup and Start\n');
 
 // Utility function to run commands
 function runCommand(command, cwd = process.cwd()) {

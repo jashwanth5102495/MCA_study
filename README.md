@@ -1,4 +1,4 @@
-# MCA Study Hub 🎓
+# Akash e notes 🎓
 
 A comprehensive study platform for MCA (Master of Computer Applications) students with interactive topic management, resume builder, and student explanations.
 

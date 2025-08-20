@@ -1,6 +1,6 @@
 #!/usr/bin/env pwsh
 
-Write-Host "🚀 Starting MCA Study Hub - PowerShell Version" -ForegroundColor Green
+Write-Host "🚀 Starting Akash e notes - PowerShell Version" -ForegroundColor Green
 Write-Host ""
 
 # Check if MongoDB is installed

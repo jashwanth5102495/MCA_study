@@ -1,4 +1,4 @@
-# 🎉 MCA Study Hub - Complete Setup Guide
+# 🎉 Akash e notes - Complete Setup Guide
 
 ## ✅ FEATURES IMPLEMENTED
 
@@ -88,7 +88,7 @@ project/
 
 ## 🎉 ALL SYSTEMS OPERATIONAL!
 
-Your MCA Study Hub now includes:
+Your Akash e notes now includes:
 - ✅ Professional Resume Builder
 - ✅ MongoDB-backed topic management
 - ✅ Student video explanations with HOD auth

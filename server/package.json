@@ -1,7 +1,7 @@
 {
   "name": "mca-study-hub-server",
   "version": "1.0.0",
-  "description": "Backend server for MCA Study Hub",
+  "description": "Backend server for Akash e notes",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

@@ -1,4 +1,4 @@
-# MCA Study Hub Backend
+# Akash e notes Backend
 
 ## Quick Setup
 

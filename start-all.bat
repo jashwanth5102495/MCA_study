@@ -1,5 +1,5 @@
 @echo off
-echo 🚀 Starting MCA Study Hub - Windows Version
+echo 🚀 Starting Akash e notes - Windows Version
 echo.
 
 echo 🔍 Checking if MongoDB is installed...

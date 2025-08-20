@@ -7,7 +7,7 @@ import { dirname, join } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-console.log('🚀 Starting MCA Study Hub - Complete Setup\n');
+console.log('🚀 Starting Akash e notes - Complete Setup\n');
 
 // Function to start a process
 function startProcess(command, args, cwd, name, color) {

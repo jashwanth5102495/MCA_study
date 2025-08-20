@@ -219,7 +219,7 @@ function AppContent({ isDark, toggleTheme }: AppContentProps) {
                       transition={{ delay: 0.3 }}
                       className="text-4xl md:text-5xl font-bold text-white dark:text-neon-green mb-6"
                     >
-                      Welcome to MCA Study Hub
+                      Welcome to Akash e notes
                     </motion.h2>
                     
                     <motion.p
