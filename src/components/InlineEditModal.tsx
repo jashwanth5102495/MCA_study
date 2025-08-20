@@ -75,7 +75,7 @@ export const InlineEditModal: React.FC<InlineEditModalProps> = ({
       
       if (saveResult.success) {
         // Trigger immediate update to refresh all UI components
-        triggerImmediateTopicUpdate(updatedTopic.id, updatedTopic);
+        triggerImmediateTopicUpdate(updatedTopic);
         
         if (onTopicUpdate) {
           onTopicUpdate();

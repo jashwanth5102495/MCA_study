@@ -146,7 +146,7 @@ export const ModernEditModal: React.FC<ModernEditModalProps> = ({ isOpen, onClos
         
         if (localSaveResult.success) {
           // Trigger immediate update to refresh all UI components
-          triggerImmediateTopicUpdate(editingTopic.id, editingTopic);
+          triggerImmediateTopicUpdate(editingTopic);
           
           if (localSaveResult.savedToBackend) {
             console.log(`✅ Topic "${editingTopic.name}" saved to backend successfully`);

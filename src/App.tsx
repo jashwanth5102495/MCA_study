@@ -18,7 +18,6 @@ import HackathonsPage from './components/HackathonsPage';
 import ResumeBuilder from './components/ResumeBuilder';
 import StudentExplanations from './components/StudentExplanations';
 import JobsPage from './components/JobsPage';
-import TestPage from './components/TestPage';
 
 import { useTheme } from './hooks/useTheme';
 import { Subject, Topic, getSubjectById, getSubjectsBySemester, getTopicById } from './data/syllabus';
