@@ -1,5 +1,5 @@
 @echo off
-echo 🚀 Starting Akash e notes - Windows Version
+echo 🚀 Starting Akash E-Notes - Windows Version
 echo.
 
 echo 🔍 Checking if MongoDB is installed...

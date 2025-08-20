@@ -1,4 +1,4 @@
-# Akash e notes Backend
+# Akash E-Notes Backend
 
 ## Quick Setup
 

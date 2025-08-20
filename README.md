@@ -1,4 +1,4 @@
-# Akash e notes 🎓
+# Akash E-Notes 🎓
 
 A comprehensive study platform for MCA (Master of Computer Applications) students with interactive topic management, resume builder, and student explanations.
 

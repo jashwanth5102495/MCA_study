@@ -2,7 +2,7 @@ const { spawn } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-console.log('🚀 Starting Akash e notes Backend...\n');
+console.log('🚀 Starting Akash E-Notes Backend...\n');
 
 // Check if MongoDB is running
 async function checkMongoDB() {

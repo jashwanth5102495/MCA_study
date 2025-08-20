@@ -1,4 +1,4 @@
-# 🎉 Akash e notes - Complete Setup Guide
+# 🎉 Akash E-Notes - Complete Setup Guide
 
 ## ✅ FEATURES IMPLEMENTED
 
@@ -88,7 +88,7 @@ project/
 
 ## 🎉 ALL SYSTEMS OPERATIONAL!
 
-Your Akash e notes now includes:
+Your Akash E-Notes now includes:
 - ✅ Professional Resume Builder
 - ✅ MongoDB-backed topic management
 - ✅ Student video explanations with HOD auth
